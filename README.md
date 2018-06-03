@@ -9,7 +9,7 @@ In this challenge, the user enters a string and a substring. You have to print t
 The first line of input contains the original string. The next line contains the substring.
 # Constraints
 1<=len(string)<=200
-Each character in the string is an ascii character.
+#Each character in the string is an ascii character.
 
 # Output Format
 
@@ -24,7 +24,7 @@ CDC
 
 # SOLTUTION
 
-import re
-word=input()
-substr=input()
-print(len([m.start() for m in re.finditer('(?='+substr+')', word)]))
+#import re
+#word=input()
+#substr=input()
+#print(len([m.start() for m in re.finditer('(?='+substr+')', word)]))
